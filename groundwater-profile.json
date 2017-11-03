@@ -1,0 +1,78 @@
+{
+    "name": "groundwater",
+    "description": "groundwater",
+    "contact": {
+	    "organization": "Argonne National Lab",
+	    "organization_abbrev": "ANL",
+	    "url": "http://www.anl.gov",
+        "email": "tflynn@anl.gov",
+        "firstname": "Ted",
+        "lastname": "Flynn"
+    },
+    "packages": [
+        "water"
+    ],
+    "hierarchy": [
+        [
+    	    "depth",
+            "alkalinity",
+            "conduc",
+            "diss_oxygen",
+            "ph",
+            "redox_potential",
+            "temp",
+            "samp_size"
+        ],
+        [
+            "elev",
+            "calcium",
+            "chloride",
+            "diss_inorg_carb",
+            "magnesium",
+            "nitrate",
+            "nitrite",
+            "phosphate",
+            "samp_collect_device",
+            "samp_mat_process",
+            "sodium",
+            "sulfate"
+        ],
+	    [
+            "ammonium",
+            "biomass",
+            "bromide",
+            "calcium",
+            "carb_nitro_ratio",
+            "chloride",
+            "chlorophyll",
+            "diss_carb_dioxide",
+            "diss_hydrogen",
+            "diss_inorg_nitro",
+            "diss_inorg_phosp",
+            "diss_org_carb",
+            "diss_org_nitro",
+            "nitro",
+            "org_carb",
+            "org_nitro",
+            "organism_count",
+            "oxy_stat_samp",
+            "part_org_carb",
+            "part_org_nitro",
+            "potassium",
+            "pressure",
+            "salinity",
+            "samp_store_dur",
+            "samp_store_loc",
+            "samp_store_temp",
+            "samp_vol_we_dna_ext",
+            "silicate",
+            "sulfide",
+            "tot_depth_water_col",
+            "tot_diss_nitro",
+            "tot_inorg_nitro",
+            "tot_nitro",
+            "tot_part_carb",
+            "tot_phosp"
+        ]
+    ]
+}
